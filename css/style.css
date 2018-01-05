@@ -144,6 +144,134 @@ header .hero {
  }
 .btn:hover {
    background:#FFFFFF;
-   color:#4A4A4A;
+   color:#40ABE9;
    font-weight: 700;
  }
+
+ /* Benefits */
+ .benefits{
+   text-align: center;
+   display: block;
+   position: relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits i {
+  color:#4A4A4A;
+  font-size:60px;
+  margin:0;
+  vertical-align: middle;
+}
+.benefits h2 {
+  color:#4A4A4A;
+}
+
+/* Pricing */
+.pricing {
+   background: #34495E url("../images/background.png") top center no-repeat;
+   background: url("../images/background.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
+ .pricing h2,.pricing p{
+   color:#FFFFFF;
+ }
+ .box {
+   padding:0 15px 15px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+ }
+ .box.middle {
+   min-height: 485px;
+   margin-top:0px;
+ }
+ .box h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #E2E2E2;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
+  left:0;
+  right:0;
+  top:0;
+  text-align: center;
+  margin:0 -15px 40px;
+  padding:10px 0;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding:4em 0;
+  text-align: center;
+}
+.testimonials h2 {
+  color:#4A4A4A;
+}
+.testimonials li {
+  list-style-type: none;
+}
+.testimonials blockquote {
+  color:#FFFFFF;
+  text-align: left;
+  font-style: italic;
+  background:#34495E;
+  position: relative;
+  padding:30px;
+  width:auto;
+  margin:0;
+}
+.testimonials blockquote:after {
+  top: 100%;
+  left: 13%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #34495E;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.testimonials img {
+  height: 65px;
+  width: 65px;
+  border-radius:50%;
+  float: left;
+  display: inline-block;
+  margin:20px 10px 0 0;
+}
+.testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size:13px;
+  margin-top: 30px;
+}
+
+/** CALL TO ACTION **/
+.call-to-action {
+  padding:1em 0;
+  text-align: center;
+}
+.call-to-action ul{
+    margin-top: 30px;
+  }
+.call-to-action a{
+float: center;
+}
+.call-to-action btn:hover {
+  background:#FFFFFF;
+  color:#40ABE9;
+  font-weight: 700;
+}
