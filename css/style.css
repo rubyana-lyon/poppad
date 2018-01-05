@@ -230,6 +230,10 @@ header .hero {
   width:auto;
   margin:0;
 }
+.testimonials .relative{
+    position: relative;
+    top: 20px;
+}
 .testimonials blockquote:after {
   top: 100%;
   left: 13%;
