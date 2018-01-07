@@ -50,16 +50,16 @@ p {
   .one-half {
     width:46%;
   }
-  .one-third {
-    width: 29.33333%;
-  }
-  .one-fourth {
-    width:21%;
-  }
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    }
+    .one-third {
+      width: 29.33333%;
+    }
+    .one-fourth {
+      width:21%;
     }
   }
 @media (min-width: 992px) {
