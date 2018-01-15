@@ -13,8 +13,11 @@
 	padding: 0;
 	margin: 15px 0 0;
   float: right;
+  display: inline-block;
 }
-.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-trigger {
+  position: relative;
+}
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
@@ -23,11 +26,11 @@
     display: none;
     min-width: 100px;
     list-style: none;
-	padding: 20px;
-	margin: 20px 0 0;
+	  padding: 20px;
+    margin: 20px 0 0;
 }
-.dropit .dropit-open .dropit-submenu { display: block;
-  display: block;
+.dropit .dropit-open .dropit-submenu {
+   display: block;
    background: #FFFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
@@ -57,3 +60,59 @@
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight:100;
  }
+
+/** SETTINGS **/
+.menu2 {
+  list-style: none;
+  padding: 0;
+  margin: 2px 0 0;
+  float: right;
+  display: inline-block;
+}
+.menu2 .dropit-trigger {
+  position: relative;
+}
+.menu2 .dropit-submenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 130px;
+  list-style: none;
+  margin: -140px 0 0;
+  height: 100px;
+}
+
+.menu2 .dropit-open .dropit-submenu {
+  display: block;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.menu2 .dropit-open .dropit-submenu:after {
+  content: " ";
+  position: absolute;
+  border-style: solid;
+  border-width: 8px 8px 0;
+  border-color: #ffffff transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: 140px;
+  right: 9px;
+}
+.menu2 .dropit-open .dropit-submenu li {
+  display: block;
+  margin-bottom: 20px;
+}
+.menu2 .dropit-open .dropit-submenu li:last-child {
+  margin-bottom: 0px;
+}
+.menu2 .dropit-open .dropit-submenu li a {
+  color: #34495E;
+  text-decoration: none;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
